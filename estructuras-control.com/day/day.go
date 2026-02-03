@@ -12,9 +12,9 @@ func main() {
 	log.SetFlags(0)
 
 	//days with key number day 1,2,3,4,5,6,7
-	keys := []int{1,3,4,6,4,7,5}
+	days := []string{"1","3","4","6","4","7","5"}
 
-	messages, err := phrases.Days(keys)
+	messages, err := phrases.Days(days)
 
 	if err != nil {
 		log.Fatal(err)

@@ -1,0 +1,11 @@
+Comandos Go
+
+Inicializar un módulo:
+go mod init example.com/day
+
+Sostituir comando en modulos:
+go mod edit -replace example.com/greetings=../greetings
+
+Syncronizar dependencias, añadir dependencias que requiere el código, pero que aún no se han registrado en el código
+go mod tidy
+
