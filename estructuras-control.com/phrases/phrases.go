@@ -24,9 +24,10 @@ func GetDay(day string) (string) {
 	case "7":
 		return "Sunday"
 		
+	default:
+		return "Otro día"
 	}
 
-	return "dia no encontrado"
 }
 
 func Day(key string) (string, error) {
